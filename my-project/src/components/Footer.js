@@ -4,7 +4,7 @@ import Logo from "../images/Logo.svg"
 const Footer = () => {
 
     return (
-        <footer>
+        <footer class="general">
             <p>&copy; Copyright Little Lemon</p>
             <img src={Logo} alt="Little Lemon" />
         </footer>
