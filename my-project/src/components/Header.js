@@ -7,9 +7,9 @@ const Header = () => {
     
     return (
         <header>
-                <img src={Logo} alt="Little Lemon"/>
-                <Nav />
-        </header>
+            <img src={Logo} alt="Little Lemon"/>
+            <Nav />
+    </header>
     );
 }
 

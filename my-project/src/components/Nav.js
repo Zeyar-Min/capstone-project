@@ -1,17 +1,16 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Nav = () => {
     
     return(
-        <nav>
-            <ul>
-                <li><a class="nav" href=' '>Home</a></li>
-                <li><a class="nav" href=' '>Menu</a></li>
-                <li><a class="nav" href=' '>Reservation</a></li>
-                <li><a class="nav" href=' '>Location</a></li>
-                <li><a class="nav" href=' '>About</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <Link to="/" class="nav">Home Page</Link>
+                <Link to="/" class="nav">Menu</Link>
+                <Link to="/Reservation" class="nav">Reservation</Link>
+                <Link to="/" class="nav">Location</Link>
+                <Link to="/" class="nav">About</Link>
+            </nav>
     );
 
 }
